@@ -1,0 +1,7 @@
+﻿readMatSpikeData.lib(readMatSpikeData.obj) : error LNK2019: unresolved external symbol _mxGetPr_800 referenced in function "public: double __thiscall readMatSpikeData::getNumSpikes(int)" (?getNumSpikes@readMatSpikeData@@QAENH@Z)
+readMatSpikeData.lib(readMatSpikeData.obj) : error LNK2019: unresolved external symbol _mxGetField_800 referenced in function "public: double __thiscall readMatSpikeData::getNumSpikes(int)" (?getNumSpikes@readMatSpikeData@@QAENH@Z)
+readMatSpikeData.lib(readMatSpikeData.obj) : error LNK2019: unresolved external symbol _matOpen referenced in function "public: __thiscall readMatSpikeData::readMatSpikeData(char const *,char const *)" (??0readMatSpikeData@@QAE@PBD0@Z)
+readMatSpikeData.lib(readMatSpikeData.obj) : error LNK2019: unresolved external symbol _matGetVariable referenced in function "public: __thiscall readMatSpikeData::readMatSpikeData(char const *,char const *)" (??0readMatSpikeData@@QAE@PBD0@Z)
+D:\Program Files (x86)\matlab_install\extern\lib\win64\mingw64\libmx.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Program Files (x86)\matlab_install\extern\lib\win64\mingw64\libmat.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\dev\Research\SelfMadeLibraries\readMatSpikeData\Debug\testingReadMatSpikeData.exe : fatal error LNK1120: 4 unresolved externals
